@@ -499,4 +499,8 @@ vector<cv::KeyPoint> System::GetTrackedKeyPointsUn()
     return mTrackedKeyPointsUn;
 }
 
+cv::Mat System::DrawFrame() {
+  return mpFrameDrawer->DrawFrame();
+}
+
 } //namespace ORB_SLAM

@@ -124,6 +124,9 @@ public:
     std::vector<MapPoint*> GetTrackedMapPoints();
     std::vector<cv::KeyPoint> GetTrackedKeyPointsUn();
 
+    //Draw and return anotated frame
+    cv::Mat DrawFrame();
+
 private:
 
     // Input sensor
