@@ -127,6 +127,9 @@ public:
     //Draw and return anotated frame
     cv::Mat DrawFrame();
 
+    //     ~~TOMMY EDIT~~
+    Map* getMap();
+
 private:
 
     // Input sensor
